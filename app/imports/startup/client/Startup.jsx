@@ -10,3 +10,5 @@ Meteor.startup(() => {
   );
   root.render(<App />);
 });
+
+// Testing if ESLint is working
