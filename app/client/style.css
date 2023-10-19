@@ -11,7 +11,8 @@ h2 {
 }
 
 .nav-link {
-  color: black;
+  --bs-nav-link-color: black;
+  --bs-nav-link-hover-color: darkgray;
 }
 
 .nav-link.active
