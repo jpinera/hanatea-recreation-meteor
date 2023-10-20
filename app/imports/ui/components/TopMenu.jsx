@@ -11,7 +11,7 @@ const TopMenu = () => (
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
         <Nav activeKey="/home" className="fs-5 justify-content-end">
-          <Nav.Link className="px-0 pb-0 me-2" href="/home">Home</Nav.Link>
+          <Nav.Link className="px-0 pb-0 me-2" href="#" active>Home</Nav.Link>
           <Nav.Link href="#">Menu</Nav.Link>
           <Nav.Link href="#">About</Nav.Link>
           <Nav.Link href="#">Visit</Nav.Link>

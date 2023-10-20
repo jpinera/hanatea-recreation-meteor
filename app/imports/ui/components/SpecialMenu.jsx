@@ -16,13 +16,13 @@ const SpecialMenu = () => (
       </Container>
     </Col>
     <Nav activeKey="/home" className="justify-content-center ms-4 mt-5 py-5">
-      <Nav.Item className="fs-4 mx-3"><Nav.Link className="p-0" href="/home" aria-current="page">Home</Nav.Link></Nav.Item>
+      <Nav.Item className="fs-4 mx-3"><Nav.Link className="p-0" href="#" aria-current="page" active>Home</Nav.Link></Nav.Item>
       <div className="fs-3">||</div>
-      <Nav.Item className="fs-4 mx-3"><Nav.Link className="p-0" href="/home">Special Menu</Nav.Link></Nav.Item>
+      <Nav.Item className="fs-4 mx-3"><Nav.Link className="p-0" href="#" active>Special Menu</Nav.Link></Nav.Item>
       <div className="fs-3">||</div>
-      <Nav.Item className="fs-4 mx-3"><Nav.Link className="p-0" href="/home">About</Nav.Link></Nav.Item>
+      <Nav.Item className="fs-4 mx-3"><Nav.Link className="p-0" href="#" active>About</Nav.Link></Nav.Item>
       <div className="fs-3">||</div>
-      <Nav.Item className="fs-4 mx-3"><Nav.Link className="p-0" href="/home">Visit</Nav.Link></Nav.Item>
+      <Nav.Item className="fs-4 mx-3"><Nav.Link className="p-0" href="#" active>Visit</Nav.Link></Nav.Item>
     </Nav>
   </Row>
 );
